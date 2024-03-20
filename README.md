@@ -70,17 +70,15 @@ Easily start your Reactive RESTful Web Services
 curl --request POST \
   --url http://localhost:8080/person \
   --header 'Content-Type: application/json' \
-  --header 'User-Agent: insomnia/8.6.1' \
   --data '{
-	"name" : "Paulo"
+	"name" : "Marcus"
 }'
 ```
 
 ## Get Persons
 ```shell
 curl --request GET \
-  --url http://localhost:8080/person \
-  --header 'User-Agent: insomnia/8.6.1'
+  --url http://localhost:8080/person
 ```
 
 
